@@ -10,7 +10,6 @@ function onDeviceReady() {
     		dataType: "json",
     	}).done(function (info) {
     		if (info["status"] == "OK"){
-                console.log(info)
     			localStorage.setItem("URL", $('#URL').val())
     			localStorage.setItem("session_token", info["session_token"]);
 
