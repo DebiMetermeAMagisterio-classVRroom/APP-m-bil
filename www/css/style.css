@@ -67,6 +67,10 @@ button{
  border: none;
 }
 
+button:active {
+  background: grey !important;
+}
+
 .FORGOT-SECTION{
  width: calc(100% - 40px);
  line-height: 30px;

@@ -95,6 +95,10 @@ html, body {
   border-radius: 60px;
 }
 
+.collection-item:active {
+  background: grey !important;
+}
+
 .details_head {
   background: rgba(142,198,255,1);
   color: white;
@@ -115,9 +119,17 @@ html, body {
 .details_elements {
   margin: 0 5%;
   padding-left: 3%;
-  padding-bottom: 0.5%;
+  padding-right: 3%;
 }
 
 .collection {
   border: 0px;
+}
+
+.icons {
+}
+
+.details_elements:active {
+  background: lightgrey;
+  border-radius: 60px;
 }

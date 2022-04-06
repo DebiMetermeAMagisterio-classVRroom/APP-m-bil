@@ -33,13 +33,13 @@
                   $('#test-swipe-2').append(newh2);
                   //for (let item in arrayCursos) {
                   for (let item in info["course"]["elements"]) {
-                    let newsummary = $("<p class='details_elements'>"+info["course"]["elements"][item]["title"]+"</p>");
+                    let newsummary = $("<p class='details_elements'>"+info["course"]["elements"][item]["title"]+"<i class='material-icons right' class='icons'>play_circle_outline</i></p>");
                     $('#test-swipe-2').append(newsummary);
                   }
                   let newh3 = $("<h5 class='details_titles'>VR Tasks</h5>");
                   $('#test-swipe-2').append(newh3);
                   for (let item in info["course"]["vr_tasks"]) {
-                    let newsummary2 = $("<p class='details_elements'>"+info["course"]["vr_tasks"][item]["title"]+"</p>");
+                    let newsummary2 = $("<p class='details_elements'>"+info["course"]["vr_tasks"][item]["title"]+"<i class='material-icons right' class='icons'>play_circle_outline</i></p>");
 
                     newsummary2.click( function() {
                         $.ajax({
@@ -61,7 +61,7 @@
                   let newh4 = $("<h5 class='details_titles'>No-VR Tasks</h5>");
                   $('#test-swipe-2').append(newh4)
                   for (let item in info["course"]["tasks"]) {
-                    let newsummary3 = $("<p class='details_elements'>"+info["course"]["tasks"][item]["title"]+"</p>");
+                    let newsummary3 = $("<p class='details_elements'>"+info["course"]["tasks"][item]["title"]+"<i class='material-icons right' class='icons'>play_circle_outline</i></p>");
                     $('#test-swipe-2').append(newsummary3);
                   }  
                   //}
