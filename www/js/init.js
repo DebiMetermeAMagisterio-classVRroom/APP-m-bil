@@ -48,11 +48,11 @@
                           data : {"token":localStorage.getItem("session_token"), "taskID":info["course"]["vr_tasks"][item]["ID"]},
                           dataType: "json",
                         }).done(function (info) {
-                          $("#alertPassed").text(777);
-                          $("#alertFailed").text(888);
-                          $("#alertScore").text(999);
-                          $("#alertQualification").text(10);
-                          $("#alertMetadata").text("Mu bie");
+                          $("#alertPassed").text(5);
+                          $("#alertFailed").text(3);
+                          $("#alertScore").text(5);
+                          $("#alertQualification").text(6);
+                          $("#alertMetadata").text("Nice");
                           $("#alertPIN").text("Here's your PIN:   "+info["PIN"]);
                           $('#modal1').modal();
                             $('#modal1').modal('open');
