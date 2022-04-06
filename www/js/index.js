@@ -19,7 +19,7 @@ function onDeviceReady() {
     			alert(info["message"])
     		}
     	}).fail(function(){
-    		alert("URL no valida");
+    		alert("No valid URL");
     	});
 
 
