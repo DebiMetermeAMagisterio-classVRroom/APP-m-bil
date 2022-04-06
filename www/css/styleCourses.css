@@ -127,9 +127,34 @@ html, body {
 }
 
 .icons {
+
 }
 
 .details_elements:active {
   background: lightgrey;
   border-radius: 60px;
+}
+
+h5 {
+  padding-bottom: 3.5%;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+#got_it {
+  background: lightgrey;
+}
+
+#got_it:active {
+  background: grey;
+}
+
+.modalTitles {
+  font-weight: 550;
+}
+
+#taskResults {
+  font-weight: 550;
 }

@@ -48,7 +48,12 @@
                           data : {"token":localStorage.getItem("session_token"), "taskID":info["course"]["vr_tasks"][item]["ID"]},
                           dataType: "json",
                         }).done(function (info) {
-                          $("#alertPIN").text(info["PIN"]);
+                          $("#alertPassed").text(777);
+                          $("#alertFailed").text(888);
+                          $("#alertScore").text(999);
+                          $("#alertQualification").text(10);
+                          $("#alertMetadata").text("Mu bie");
+                          $("#alertPIN").text("Here's your PIN:   "+info["PIN"]);
                           $('#modal1').modal();
                             $('#modal1').modal('open');
                         }).fail(function() {
